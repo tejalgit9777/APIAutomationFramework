@@ -24,14 +24,14 @@ def post_payload():
 def put_payload():
     payload = {
         "firstname": "James",
-        "lastname": "Brown",
-        "totalprice": 111,
+        "lastname": "Mackwan",
+        "totalprice": 116,
         "depositpaid": True,
         "bookingdates": {
-            "checkin": "2018-01-01",
-            "checkout": "2019-01-01"
+            "checkin": "2018-01-07",
+            "checkout": "2019-01-07"
         },
-        "additionalneeds": "Breakfast"
+        "additionalneeds": "Dinner"
     }
     return payload
 
@@ -42,3 +42,5 @@ def patch_payload():
         "lastname": "Brown",
     }
     return payload
+
+
