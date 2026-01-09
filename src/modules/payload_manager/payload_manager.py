@@ -8,13 +8,13 @@ def create_token():
 
 def post_payload():
     payload = {
-        "firstname": "Jim",
+        "firstname": "Sheryl",
         "lastname": "Brown",
-        "totalprice": 111,
+        "totalprice": 121,
         "depositpaid": True,
         "bookingdates": {
-            "checkin": "2018-01-01",
-            "checkout": "2019-01-01"
+            "checkin": "2018-01-05",
+            "checkout": "2019-01-05"
         },
         "additionalneeds": "Breakfast"
     }
@@ -23,13 +23,13 @@ def post_payload():
 
 def put_payload():
     payload = {
-        "firstname": "James",
+        "firstname": "Monil",
         "lastname": "Mackwan",
-        "totalprice": 116,
+        "totalprice": 176,
         "depositpaid": True,
         "bookingdates": {
-            "checkin": "2018-01-07",
-            "checkout": "2019-01-07"
+            "checkin": "2018-01-08",
+            "checkout": "2019-01-08"
         },
         "additionalneeds": "Dinner"
     }
