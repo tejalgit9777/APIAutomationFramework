@@ -19,6 +19,6 @@ class TestUpdateBooking:
             headers=Utils().common_headers_put_patch_delete_cookie_auth(test_get_token),
             payload=put_payload(),
         )
-
         print(response.status_code)
         print(response.text)
+        assert response.status_code == 200

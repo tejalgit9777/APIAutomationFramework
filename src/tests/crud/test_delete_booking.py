@@ -23,4 +23,5 @@ class TestDeleteBooking:
         )
         print("\n")
         print("Deleted!",response.status_code)
+        assert response.status_code == 201
 

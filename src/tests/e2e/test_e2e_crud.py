@@ -63,6 +63,7 @@ class TestEndToEnd:
         print("\n")
         print("Booking ID: ",test_create_booking_1)
         print("After Update: ",response_update_booking.text)
+        assert response_update_booking.status_code == 200
 
     @allure.title("Delete Booking")
     def test_delete_booking_1(self,test_create_booking_1,test_get_token):
@@ -72,3 +73,4 @@ class TestEndToEnd:
         )
         print(test_create_booking_1," Booking Deleted!")
         print(response_delete_booking.text)
+        assert response_delete_booking.status_code == 201
